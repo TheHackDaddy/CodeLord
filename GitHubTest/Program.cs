@@ -37,6 +37,12 @@ namespace GitHubTest
             Console.WriteLine("Sweet! Summan av de 2 talen är:");
             Console.WriteLine(sum);
 
+            for (int i = 0; i < 100; i++)
+            {
+                Console.WriteLine(i);
+                Console.Beep();
+            }
+
         }
     }
 }
