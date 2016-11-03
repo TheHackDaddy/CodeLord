@@ -11,9 +11,9 @@ namespace GitHubTest
         
         static void Main(string[] args)
         {
-            
+            //whoa
 
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Make Academy Great Again");
 
             Calculator();
             WriteSomething();
@@ -30,7 +30,7 @@ namespace GitHubTest
             Console.WriteLine("Ange en siffra");
            var input1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Ange en siffra att addera med den första siffran du angav");
-           var input2 = Convert.ToInt32(Console.ReadLine());
+           var input2 = (Console.ReadLine());
 
             var sum = input1 + input2;
 
