@@ -8,43 +8,36 @@ namespace GitHubTest
 {
     class Program
     {
-        
+
         static void Main(string[] args)
         {
             //whoa
             while (true)
-            {
                 Console.Beep();
 
-                Console.WriteLine("Make Academy Great Again");
+            Console.WriteLine("Make Academy Great Again");
 
-                //WriteSomething(); hahhahahahhaha BUG BUGBUG BUG BUG!!!!
-                Calculator();
-            }
+            //WriteSomething(); hahhahahahhaha BUG BUGBUG BUG BUG!!!!
+            Calculator();
+
         }
 
         private static void WriteSomething()
         {
             Console.WriteLine("Awesome kalkylator!");
         }
-        
+
         private static void Calculator()
         {
             Console.WriteLine("Ange en siffra");
-           var input1 = Convert.ToInt32(Console.ReadLine());
+            var input1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Ange en siffra att addera med den första siffran du angav");
-           var input2 = (Console.ReadLine());
+            var input2 = (Console.ReadLine());
 
             var sum = input1 + input2;
 
             Console.WriteLine("Sweet! Summan av de 2 talen är:");
             Console.WriteLine(sum);
-
-            for (int i = 0; i < 100; i++)
-            {
-                Console.WriteLine(i);
-                Console.Beep();
-            }
 
         }
     }
