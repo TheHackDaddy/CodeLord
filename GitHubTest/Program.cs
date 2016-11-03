@@ -15,16 +15,16 @@ namespace GitHubTest
 
             Console.WriteLine("Make Academy Great Again");
 
-            Calculator();
             WriteSomething();
+            Calculator();
 
         }
 
         private static void WriteSomething()
         {
-            
+            Console.WriteLine("Awesome kalkylator!");
         }
-
+        
         private static void Calculator()
         {
             Console.WriteLine("Ange en siffra");
