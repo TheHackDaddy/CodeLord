@@ -15,7 +15,7 @@ namespace GitHubTest
 
             Console.WriteLine("Make Academy Great Again");
 
-            WriteSomething();
+            //WriteSomething(); hahhahahahhaha BUG BUGBUG BUG BUG!!!!
             Calculator();
 
         }
