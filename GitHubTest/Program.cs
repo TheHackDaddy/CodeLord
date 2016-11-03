@@ -12,6 +12,8 @@ namespace GitHubTest
         static void Main(string[] args)
         {
             //whoa
+            while (true)
+                Console.Beep();
 
             Console.WriteLine("Make Academy Great Again");
 
