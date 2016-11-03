@@ -11,7 +11,7 @@ namespace GitHubTest
 
         static void Main(string[] args)
         {
-            TextWrite.Go();
+            TextWrite.Go(100);
             WriteSomething();
             Calculator();
             //whoa

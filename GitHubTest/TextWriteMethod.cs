@@ -9,7 +9,7 @@ namespace GitHubTest
 {
     public class TextWrite
     {
-        static public void Go()
+        static public void Go(int time)
         {
             while (true)
             {
@@ -31,7 +31,7 @@ namespace GitHubTest
                 Console.WriteLine(@" A:::::A                 A:::::A ");
                 Console.WriteLine(@"AAAAAAA                   AAAAAAA");
                 Console.Beep();
-                Thread.Sleep(500);
+                Thread.Sleep(time);
                 Console.Clear();
                 Console.WriteLine(@"            CCCCCCCCCCCCC");
                 Console.WriteLine(@"         CCC::::::::::::C");
@@ -50,7 +50,7 @@ namespace GitHubTest
                 Console.WriteLine(@"         CCC::::::::::::C");
                 Console.WriteLine(@"            CCCCCCCCCCCCC");
                 Console.Beep();
-                Thread.Sleep(500);
+                Thread.Sleep(time);
                 Console.Clear();
 
                 Console.WriteLine(@"               AAA               ");
@@ -70,7 +70,7 @@ namespace GitHubTest
                 Console.WriteLine(@" A:::::A                 A:::::A ");
                 Console.WriteLine(@"AAAAAAA                   AAAAAAA");
                 Console.Beep();
-                Thread.Sleep(500);
+                Thread.Sleep(time);
                 Console.Clear();
                 Console.WriteLine(@"       DDDDDDDDDDDDD      ");
                 Console.WriteLine(@"       D::::::::::::DDD   ");
@@ -89,7 +89,7 @@ namespace GitHubTest
                 Console.WriteLine(@"       D::::::::::::DDD   ");
                 Console.WriteLine(@"       DDDDDDDDDDDDD      ");
                 Console.Beep();
-                Thread.Sleep(500);
+                Thread.Sleep(time);
                 Console.Clear();
                 Console.WriteLine(@"     EEEEEEEEEEEEEEEEEEEEEE");
                 Console.WriteLine(@"     E::::::::::::::::::::E");
@@ -108,7 +108,7 @@ namespace GitHubTest
                 Console.WriteLine(@"     E::::::::::::::::::::E");
                 Console.WriteLine(@"     EEEEEEEEEEEEEEEEEEEEEE");
                 Console.Beep();
-                Thread.Sleep(500);
+                Thread.Sleep(time);
                 Console.Clear();
                 Console.WriteLine(@"MMMMMMMM               MMMMMMMM");
                 Console.WriteLine(@"M:::::::M             M:::::::M");
@@ -127,7 +127,7 @@ namespace GitHubTest
                 Console.WriteLine(@"M::::::M               M::::::M");
                 Console.WriteLine(@"MMMMMMMM               MMMMMMMM");
                 Console.Beep();
-                Thread.Sleep(500);
+                Thread.Sleep(time);
                 Console.Clear();
                 Console.WriteLine(@"     YYYYYYY       YYYYYYY");
                 Console.WriteLine(@"     Y:::::Y       Y:::::Y");
@@ -145,7 +145,8 @@ namespace GitHubTest
                 Console.WriteLine(@"         YYYY:::::YYYY    ");
                 Console.WriteLine(@"         Y:::::::::::Y    ");
                 Console.WriteLine(@"         YYYYYYYYYYYYY    ");
-                Thread.Sleep(500);
+                Console.Beep();
+                Thread.Sleep(time);
                 Console.Clear();
             }
         }
