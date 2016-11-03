@@ -13,13 +13,14 @@ namespace GitHubTest
         {
             //whoa
             while (true)
+            {
                 Console.Beep();
 
-            Console.WriteLine("Make Academy Great Again");
+                Console.WriteLine("Make Academy Great Again");
 
-            //WriteSomething(); hahhahahahhaha BUG BUGBUG BUG BUG!!!!
-            Calculator();
-
+                //WriteSomething(); hahhahahahhaha BUG BUGBUG BUG BUG!!!!
+                Calculator();
+            }
         }
 
         private static void WriteSomething()
